@@ -1,0 +1,80 @@
+*{box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f0e8;
+    color: #222;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.page {
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 32% 68%;
+    gap: 15px;
+    padding: 15px;
+}
+
+aside img {
+width: 10%;
+}
+
+
+div.work-images {
+    width: 50%;
+}
+
+
+.services h2 {
+    font-family: Georgia, serif;
+    font-size: clamp(55px, 7vw, 90px);
+    font-style: italic;
+}
+
+.services p {
+    font-size: 18px;
+}
+
+
+.Heading h1 {
+    font-family: Georgia, serif;
+    font-size: clamp(55px, 7vw, 90px);
+    font-style: italic;
+    float: right;
+}
+
+.Heading p {
+   font-size: 18px;
+}
+
+.works h2 {
+    font-family: Georgia, serif;
+    font-size: clamp(55px, 7vw, 90px);
+    font-style: italic;
+}
+
+.works p {
+    font-size: 18px;
+}
+
+.work-images {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.work-images img {
+    width: 130px;
+    height: 90px;
+    object-fit: cover;
+    border: 2px solid #222;
+}
+
